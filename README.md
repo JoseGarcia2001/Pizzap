@@ -35,7 +35,7 @@ La aplicación cuenta con manejo de sesión, por ende los datos son únicos para
     ```
     npm run start
     ```
-    ¡Y listo!
+    ¡Y listo accede a http://localhost:3000!
     
     Tienes los usuarios
     
