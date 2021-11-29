@@ -5,6 +5,9 @@ Hola, esta es mi solución a la prueba técnica. 😁
 
 Para ello usé React, con React-Router para las rutas y Redux para el manejo de estado de la aplicación. Para simular la API usé json-server
 
+Pizzapp es una aplicación donde tu puedes ser el chef, como cliente podrás diseñar las pizzas a tu gusto y guardarlas para luego poder repetir.
+Como chef vas a poder crear pizzas para el menú que verán los clientes y además tener un panel de datos interesantes respecto a las ventas.
+
 La aplicación cuenta con manejo de sesión, por ende los datos son únicos para cada usuario. Dentro de la aplicación existen dos roles, el de cliente y el de chef.
 
 ## Como chef
@@ -18,12 +21,20 @@ La aplicación cuenta con manejo de sesión, por ende los datos son únicos para
 - Eliminar tus pizzas
 - Comprar las pizzas creadas por los chefs y las que creaste
 
+## Acotaciones
+- Solo podrás crear una pizza si esta tiene 3 o más ingredientes
+- En el menú solo aparecerán las pizzas creadas por los chefs
+- La pizza tendrá un costo base de 10.000 por la masa
+- No podrás crear dos usuarios con el mísmo nombre de usuario
+- Como cliente no podrás eliminar pizzas del menú
+
 ### Instalación
-1. Clona el repositorio
+1. Clona el repositorio y accede a la carpeta
     ```
     git clone https://github.com/JoseGarcia2001/Pizzap.git
+    cd Pizzap
     ```
-2. Abre la consola e instala las dependencias
+2. instala las dependencias
      ```
     npm install
     ```
