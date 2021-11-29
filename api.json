@@ -1,23 +1,23 @@
 {
   "users": [
     {
+      "name": "Juan Chef",
+      "user": "chef",
+      "password": "1234",
+      "role": "chef",
+      "id": 1
+    },
+    {
       "name": "Jose Garcia",
       "user": "jose",
       "password": "1234",
       "role": "client",
-      "id": 1
-    },
-    {
-      "name": "Chef",
-      "user": "chef",
-      "password": "1234",
-      "role": "chef",
       "id": 2
     }
   ],
   "pizzas": [
     {
-      "name": "test",
+      "name": "Margherita Pizza",
       "ingredients": [
         {
           "id": 11,
@@ -28,11 +28,72 @@
           "index": 1
         },
         {
+          "id": 2,
+          "name": "Tomates",
+          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/Tomatoes_icon.svg",
+          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/tomatoes.svg",
+          "price": 4000
+        },
+        {
+          "id": 3,
+          "name": "Jalapeños",
+          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/Jalapenos_icon.svg",
+          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/jalapenos.svg",
+          "price": 3000
+        },
+        {
+          "id": 5,
+          "name": "Pimientos",
+          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/peppers_icon.svg",
+          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/peppers.svg",
+          "price": 2000
+        },
+        {
           "id": 1,
           "name": "Pepperoni",
           "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/peperonis_icon.svg",
           "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/peperoni.svg",
           "price": 3000
+        },
+        {
+          "id": 7,
+          "name": "Tocino",
+          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/Bacon_icon.svg",
+          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/bacon.svg",
+          "price": 5000
+        }
+      ],
+      "user": {
+        "role": "chef",
+        "id": 1
+      },
+      "id": 1
+    },
+    {
+      "name": "PESTO VEGGIE PIZZA",
+      "ingredients": [
+        {
+          "id": 11,
+          "name": "Queso",
+          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/cheese_icon.svg",
+          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/cheese.svg",
+          "price": 3000,
+          "index": 1
+        },
+        {
+          "id": 5,
+          "name": "Pimientos",
+          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/peppers_icon.svg",
+          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/peppers.svg",
+          "price": 2000
+        },
+        {
+          "id": 6,
+          "name": "Cebolla",
+          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/Onions_icon.svg",
+          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/onion.svg",
+          "price": 1000,
+          "index": 2
         },
         {
           "id": 3,
@@ -47,46 +108,6 @@
           "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/Tomatoes_icon.svg",
           "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/tomatoes.svg",
           "price": 4000
-        }
-      ],
-      "user": {
-        "role": "chef",
-        "id": 2
-      },
-      "id": 1
-    },
-    {
-      "name": "Pizza loca",
-      "ingredients": [
-        {
-          "id": 4,
-          "name": "Champiñones",
-          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/Mushrooms_icon.svg",
-          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/mushrooms.svg",
-          "price": 6000,
-          "index": 4
-        },
-        {
-          "id": 5,
-          "name": "Pimientos",
-          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/peppers_icon.svg",
-          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/peppers.svg",
-          "price": 2000
-        },
-        {
-          "id": 3,
-          "name": "Jalapeños",
-          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/Jalapenos_icon.svg",
-          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/jalapenos.svg",
-          "price": 3000
-        },
-        {
-          "id": 6,
-          "name": "Cebolla",
-          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/Onions_icon.svg",
-          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/onion.svg",
-          "price": 1000,
-          "index": 2
         },
         {
           "id": 9,
@@ -101,113 +122,17 @@
           "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/olives_icon.svg",
           "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/olives.svg",
           "price": 3000
-        },
-        {
-          "id": 8,
-          "name": "Sala de la casa",
-          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/swissCheese_icon.svg",
-          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/swissCheese.svg",
-          "price": 3000
-        },
-        {
-          "id": 7,
-          "name": "Tocino",
-          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/Bacon_icon.svg",
-          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/bacon.svg",
-          "price": 5000
-        },
-        {
-          "id": 11,
-          "name": "Queso",
-          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/cheese_icon.svg",
-          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/cheese.svg",
-          "price": 3000,
-          "index": 1
-        },
-        {
-          "id": 1,
-          "name": "Pepperoni",
-          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/peperonis_icon.svg",
-          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/peperoni.svg",
-          "price": 3000
-        },
-        {
-          "id": 2,
-          "name": "Tomates",
-          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/Tomatoes_icon.svg",
-          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/tomatoes.svg",
-          "price": 4000
         }
       ],
       "user": {
-        "role": "client",
+        "role": "chef",
         "id": 1
       },
       "id": 2
     },
     {
-      "name": "Pizza",
+      "name": "ITALIANA PIZZA",
       "ingredients": [
-        {
-          "id": 2,
-          "name": "Tomates",
-          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/Tomatoes_icon.svg",
-          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/tomatoes.svg",
-          "price": 4000
-        },
-        {
-          "id": 3,
-          "name": "Jalapeños",
-          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/Jalapenos_icon.svg",
-          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/jalapenos.svg",
-          "price": 3000
-        },
-        {
-          "id": 7,
-          "name": "Tocino",
-          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/Bacon_icon.svg",
-          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/bacon.svg",
-          "price": 5000
-        },
-        {
-          "id": 6,
-          "name": "Cebolla",
-          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/Onions_icon.svg",
-          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/onion.svg",
-          "price": 1000,
-          "index": 2
-        },
-        {
-          "id": 5,
-          "name": "Pimientos",
-          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/peppers_icon.svg",
-          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/peppers.svg",
-          "price": 2000
-        }
-      ],
-      "user": {
-        "role": "client",
-        "id": 1
-      },
-      "id": 3
-    },
-    {
-      "name": "Name",
-      "ingredients": [
-        {
-          "id": 2,
-          "name": "Tomates",
-          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/Tomatoes_icon.svg",
-          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/tomatoes.svg",
-          "price": 4000
-        },
-        {
-          "id": 1,
-          "name": "Pepperoni",
-          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/peperonis_icon.svg",
-          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/peperoni.svg",
-          "price": 3000
-        },
         {
           "id": 11,
           "name": "Queso",
@@ -215,45 +140,6 @@
           "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/cheese.svg",
           "price": 3000,
           "index": 1
-        },
-        {
-          "id": 5,
-          "name": "Pimientos",
-          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/peppers_icon.svg",
-          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/peppers.svg",
-          "price": 2000
-        }
-      ],
-      "user": {
-        "role": "client",
-        "id": 1
-      },
-      "id": 4
-    },
-    {
-      "name": "La especialy",
-      "ingredients": [
-        {
-          "id": 6,
-          "name": "Cebolla",
-          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/Onions_icon.svg",
-          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/onion.svg",
-          "price": 1000,
-          "index": 2
-        },
-        {
-          "id": 3,
-          "name": "Jalapeños",
-          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/Jalapenos_icon.svg",
-          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/jalapenos.svg",
-          "price": 3000
-        },
-        {
-          "id": 7,
-          "name": "Tocino",
-          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/Bacon_icon.svg",
-          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/bacon.svg",
-          "price": 5000
         },
         {
           "id": 10,
@@ -263,29 +149,13 @@
           "price": 3000
         },
         {
-          "id": 5,
-          "name": "Pimientos",
-          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/peppers_icon.svg",
-          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/peppers.svg",
-          "price": 2000
+          "id": 6,
+          "name": "Cebolla",
+          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/Onions_icon.svg",
+          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/onion.svg",
+          "price": 1000,
+          "index": 2
         },
-        {
-          "id": 9,
-          "name": "Brocoli",
-          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/brocoli_icon.svg",
-          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/broccoli.svg",
-          "price": 7000
-        }
-      ],
-      "user": {
-        "role": "client",
-        "id": 1
-      },
-      "id": 5
-    },
-    {
-      "name": "La pizza de pruebas",
-      "ingredients": [
         {
           "id": 5,
           "name": "Pimientos",
@@ -294,19 +164,18 @@
           "price": 2000
         },
         {
-          "id": 1,
-          "name": "Pepperoni",
-          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/peperonis_icon.svg",
-          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/peperoni.svg",
+          "id": 3,
+          "name": "Jalapeños",
+          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/Jalapenos_icon.svg",
+          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/jalapenos.svg",
           "price": 3000
         },
         {
-          "id": 11,
-          "name": "Queso",
-          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/cheese_icon.svg",
-          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/cheese.svg",
-          "price": 3000,
-          "index": 1
+          "id": 2,
+          "name": "Tomates",
+          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/Tomatoes_icon.svg",
+          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/tomatoes.svg",
+          "price": 4000
         },
         {
           "id": 4,
@@ -317,12 +186,165 @@
           "index": 4
         },
         {
-          "id": 6,
-          "name": "Cebolla",
-          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/Onions_icon.svg",
-          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/onion.svg",
-          "price": 1000,
-          "index": 2
+          "id": 9,
+          "name": "Brocoli",
+          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/brocoli_icon.svg",
+          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/broccoli.svg",
+          "price": 7000
+        },
+        {
+          "id": 8,
+          "name": "Queso Suizo",
+          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/swissCheese_icon.svg",
+          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/swissCheese.svg",
+          "price": 3000
+        }
+      ],
+      "user": {
+        "role": "chef",
+        "id": 1
+      },
+      "id": 3
+    },
+    {
+      "name": "NATURAL PIZZA",
+      "ingredients": [
+        {
+          "id": 11,
+          "name": "Queso",
+          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/cheese_icon.svg",
+          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/cheese.svg",
+          "price": 3000,
+          "index": 1
+        },
+        {
+          "id": 8,
+          "name": "Queso Suizo",
+          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/swissCheese_icon.svg",
+          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/swissCheese.svg",
+          "price": 3000
+        },
+        {
+          "id": 4,
+          "name": "Champiñones",
+          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/Mushrooms_icon.svg",
+          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/mushrooms.svg",
+          "price": 6000,
+          "index": 4
+        },
+        {
+          "id": 10,
+          "name": "Aceitunas",
+          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/olives_icon.svg",
+          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/olives.svg",
+          "price": 3000
+        },
+        {
+          "id": 2,
+          "name": "Tomates",
+          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/Tomatoes_icon.svg",
+          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/tomatoes.svg",
+          "price": 4000
+        }
+      ],
+      "user": {
+        "role": "chef",
+        "id": 1
+      },
+      "id": 4
+    },
+    {
+      "name": "Mi pizza",
+      "ingredients": [
+        {
+          "id": 11,
+          "name": "Queso",
+          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/cheese_icon.svg",
+          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/cheese.svg",
+          "price": 3000,
+          "index": 1
+        },
+        {
+          "id": 1,
+          "name": "Pepperoni",
+          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/peperonis_icon.svg",
+          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/peperoni.svg",
+          "price": 3000
+        },
+        {
+          "id": 2,
+          "name": "Tomates",
+          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/Tomatoes_icon.svg",
+          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/tomatoes.svg",
+          "price": 4000
+        },
+        {
+          "id": 3,
+          "name": "Jalapeños",
+          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/Jalapenos_icon.svg",
+          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/jalapenos.svg",
+          "price": 3000
+        },
+        {
+          "id": 4,
+          "name": "Champiñones",
+          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/Mushrooms_icon.svg",
+          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/mushrooms.svg",
+          "price": 6000,
+          "index": 4
+        }
+      ],
+      "user": {
+        "role": "client",
+        "id": 2
+      },
+      "id": 5
+    },
+    {
+      "name": "De la casa",
+      "ingredients": [
+        {
+          "id": 5,
+          "name": "Pimientos",
+          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/peppers_icon.svg",
+          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/peppers.svg",
+          "price": 2000
+        },
+        {
+          "id": 4,
+          "name": "Champiñones",
+          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/Mushrooms_icon.svg",
+          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/mushrooms.svg",
+          "price": 6000,
+          "index": 4
+        },
+        {
+          "id": 1,
+          "name": "Pepperoni",
+          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/peperonis_icon.svg",
+          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/peperoni.svg",
+          "price": 3000
+        },
+        {
+          "id": 2,
+          "name": "Tomates",
+          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/Tomatoes_icon.svg",
+          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/tomatoes.svg",
+          "price": 4000
+        },
+        {
+          "id": 3,
+          "name": "Jalapeños",
+          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/Jalapenos_icon.svg",
+          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/jalapenos.svg",
+          "price": 3000
+        },
+        {
+          "id": 10,
+          "name": "Aceitunas",
+          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/olives_icon.svg",
+          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/olives.svg",
+          "price": 3000
         },
         {
           "id": 9,
@@ -333,17 +355,115 @@
         },
         {
           "id": 8,
-          "name": "Sala de la casa",
+          "name": "Queso Suizo",
           "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/swissCheese_icon.svg",
           "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/swissCheese.svg",
+          "price": 3000
+        },
+        {
+          "id": 6,
+          "name": "Cebolla",
+          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/Onions_icon.svg",
+          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/onion.svg",
+          "price": 1000,
+          "index": 2
+        }
+      ],
+      "user": {
+        "role": "chef",
+        "id": 1
+      },
+      "id": 6
+    },
+    {
+      "name": "La exploción",
+      "ingredients": [
+        {
+          "id": 3,
+          "name": "Jalapeños",
+          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/Jalapenos_icon.svg",
+          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/jalapenos.svg",
+          "price": 3000
+        },
+        {
+          "id": 7,
+          "name": "Tocino",
+          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/Bacon_icon.svg",
+          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/bacon.svg",
+          "price": 5000
+        },
+        {
+          "id": 6,
+          "name": "Cebolla",
+          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/Onions_icon.svg",
+          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/onion.svg",
+          "price": 1000,
+          "index": 2
+        },
+        {
+          "id": 2,
+          "name": "Tomates",
+          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/Tomatoes_icon.svg",
+          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/tomatoes.svg",
+          "price": 4000
+        },
+        {
+          "id": 11,
+          "name": "Queso",
+          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/cheese_icon.svg",
+          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/cheese.svg",
+          "price": 3000,
+          "index": 1
+        },
+        {
+          "id": 1,
+          "name": "Pepperoni",
+          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/peperonis_icon.svg",
+          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/peperoni.svg",
+          "price": 3000
+        },
+        {
+          "id": 5,
+          "name": "Pimientos",
+          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/peppers_icon.svg",
+          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/peppers.svg",
+          "price": 2000
+        },
+        {
+          "id": 4,
+          "name": "Champiñones",
+          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/Mushrooms_icon.svg",
+          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/mushrooms.svg",
+          "price": 6000,
+          "index": 4
+        },
+        {
+          "id": 8,
+          "name": "Queso Suizo",
+          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/swissCheese_icon.svg",
+          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/swissCheese.svg",
+          "price": 3000
+        },
+        {
+          "id": 9,
+          "name": "Brocoli",
+          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/brocoli_icon.svg",
+          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/broccoli.svg",
+          "price": 7000
+        },
+        {
+          "id": 10,
+          "name": "Aceitunas",
+          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/olives_icon.svg",
+          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/olives.svg",
           "price": 3000
         }
       ],
       "user": {
         "role": "chef",
-        "id": 2
+        "id": 1
       },
-      "id": 6
+      "id": 7
     }
   ],
   "ingredients": [
@@ -408,7 +528,7 @@
     },
     {
       "id": 8,
-      "name": "Sala de la casa",
+      "name": "Queso Suizo",
       "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/swissCheese_icon.svg",
       "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/swissCheese.svg",
       "price": 3000
@@ -430,157 +550,53 @@
   ],
   "sales": [
     {
-      "client": "Jose",
-      "price": "12000",
-      "pizza": "La especial",
-      "isCustom": false
-    },
-    {
-      "client": "Jose Test",
-      "price": 9000,
-      "pizza": "Mi pizza",
-      "isCustom": false,
-      "id": 12
-    },
-    {
-      "client": "Jose Test",
-      "price": 9000,
-      "pizza": "Mi pizza",
-      "isCustom": false,
-      "id": 9.757857978350419
-    },
-    {
-      "client": "Jose Test",
-      "price": 9000,
-      "pizza": "Mi pizza",
-      "isCustom": false,
-      "id": 8.573059215532552
-    },
-    {
-      "client": "Jose Test",
-      "price": 9000,
-      "pizza": "Mi pizza",
-      "isCustom": false,
-      "id": 9.85773427921798
-    },
-    {
-      "client": "Jose Test",
-      "price": 9000,
-      "pizza": "Mi pizza",
-      "isCustom": false,
-      "id": 4.9332538461038835
-    },
-    {
-      "client": "Jose Test",
-      "price": 9000,
-      "pizza": "Mi pizza",
-      "isCustom": false,
-      "id": -0.37559264906010137
-    },
-    {
-      "client": "Jose Test",
-      "price": 9000,
-      "pizza": "Mi pizza",
-      "isCustom": false,
-      "id": 7.454038377535255
-    },
-    {
-      "client": "Jose Test",
-      "price": 13000,
-      "pizza": "Pizza",
-      "isCustom": false,
-      "id": 14.548944894848596
-    },
-    {
-      "client": "Jose Test",
-      "price": 9000,
-      "pizza": "Mi pizza",
-      "isCustom": false,
-      "id": 8.899500552974228
-    },
-    {
-      "client": "Jose Test",
-      "price": 9000,
-      "pizza": "Mi pizza",
-      "isCustom": false,
-      "id": 7.154161376622173
-    },
-    {
-      "client": "Jose Test",
-      "price": 10000,
-      "pizza": "La mágica",
-      "isCustom": false,
-      "id": 28.903226882595078
-    },
-    {
-      "client": "Jose Test",
-      "price": 10000,
-      "pizza": "La mágica",
-      "isCustom": false,
-      "id": 14.538818110308668
-    },
-    {
-      "client": "Jose Test",
-      "price": 34000,
-      "pizza": "De todo",
-      "isCustom": false,
-      "id": 28.370852113649313
-    },
-    {
-      "client": "Cliente de pruebas",
-      "price": 19000,
-      "pizza": "Pizza User",
+      "client": "Jose Garcia",
+      "price": 42000,
+      "pizza": "ITALIANA PIZZA",
       "isCustom": true,
-      "id": 0.6233801063288988
+      "id": 5.2512011708132205
     },
     {
       "client": "Jose Garcia",
-      "price": 23000,
+      "price": 29000,
+      "pizza": "NATURAL PIZZA",
+      "isCustom": true,
+      "id": 7.674040691220694
+    },
+    {
+      "client": "Jose Garcia",
+      "price": 33000,
+      "pizza": "PESTO VEGGIE PIZZA",
+      "isCustom": true,
+      "id": 0.7756864008810456
+    },
+    {
+      "client": "Jose Garcia",
+      "price": 30000,
+      "pizza": "Margherita Pizza",
+      "isCustom": true,
+      "id": -0.17645404923591657
+    },
+    {
+      "client": "Jose Garcia",
+      "price": 29000,
+      "pizza": "NATURAL PIZZA",
+      "isCustom": true,
+      "id": 1.9246139387004677
+    },
+    {
+      "client": "Jose Garcia",
+      "price": 29000,
       "pizza": "Mi pizza",
       "isCustom": false,
-      "id": -0.14230235317108875
+      "id": 2.346562833189883
     },
     {
       "client": "Jose Garcia",
-      "price": 40000,
-      "pizza": "Pizza loca",
+      "price": 29000,
+      "pizza": "Mi pizza",
       "isCustom": false,
-      "id": 1.207285511455802
-    },
-    {
-      "client": "Jose Garcia",
-      "price": 40000,
-      "pizza": "Pizza loca",
-      "isCustom": false,
-      "id": 1.0446310609273883
-    },
-    {
-      "client": "Jose Garcia",
-      "price": 12000,
-      "pizza": "Name",
-      "isCustom": false,
-      "id": 1.649359833315139
-    },
-    {
-      "client": "Jose Garcia",
-      "price": 21000,
-      "pizza": "La especialy",
-      "isCustom": false,
-      "id": 4.17360258113294
-    },
-    {
-      "client": "Jose Garcia",
-      "price": 15000,
-      "pizza": "Pizza",
-      "isCustom": false,
-      "id": 0.9070880762612252
-    },
-    {
-      "client": "Jose Garcia",
-      "price": 40000,
-      "pizza": "Pizza loca",
-      "isCustom": false,
-      "id": 1.3707023211293305
+      "id": 0.06715661554867514
     }
   ]
 }

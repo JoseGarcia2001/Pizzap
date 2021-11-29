@@ -78,7 +78,7 @@ const Creator = () => {
       </div>
       <div className='creator-resume'>
         <p className={`resume-error ${error && "error"}`}>Por favor, selecciona al menos 3 ingredientes</p>
-        <p className='resume-total'>Total: ${formatCurrency({ value: total, currency: "COP" })}</p>
+        <p className='resume-total'>Total: ${formatCurrency({ value: total + 10000, currency: "COP" })}</p>
         <button onClick={handleContinue} className='resume-button'>
           Continuar
         </button>

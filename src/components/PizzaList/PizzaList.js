@@ -41,7 +41,7 @@ const PizzaList = ({ label, view }) => {
     await dispatch(
       createSale({
         client: currentUser.name,
-        price,
+        price: price + 10000,
         pizza: viewPizza.name,
         isCustom: viewPizza.user.role === "chef",
         id: currentUser.id * viewPizza.id * Math.random() - Math.random(),

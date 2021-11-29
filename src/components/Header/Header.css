@@ -8,6 +8,7 @@
   width: 165px;
 }
 .header-logout {
+  cursor: pointer;
   position: absolute;
   width: 30px;
   right: 20px;
