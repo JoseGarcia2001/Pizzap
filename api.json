@@ -464,6 +464,45 @@
         "id": 1
       },
       "id": 7
+    },
+    {
+      "name": "Frankenstein",
+      "ingredients": [
+        {
+          "id": 11,
+          "name": "Queso",
+          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/cheese_icon.svg",
+          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/cheese.svg",
+          "price": 3000,
+          "index": 1
+        },
+        {
+          "id": 1,
+          "name": "Pepperoni",
+          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/peperonis_icon.svg",
+          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/peperoni.svg",
+          "price": 3000
+        },
+        {
+          "id": 2,
+          "name": "Tomates",
+          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/Tomatoes_icon.svg",
+          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/tomatoes.svg",
+          "price": 4000
+        },
+        {
+          "id": 3,
+          "name": "Jalapeños",
+          "image": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/Jalapenos_icon.svg",
+          "pizzaImage": "https://jogafiles.s3.us-east-2.amazonaws.com/pizzapp/jalapenos.svg",
+          "price": 3000
+        }
+      ],
+      "user": {
+        "role": "client",
+        "id": 2
+      },
+      "id": 8
     }
   ],
   "ingredients": [

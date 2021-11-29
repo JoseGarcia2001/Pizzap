@@ -108,9 +108,11 @@ const PizzaList = ({ label, view }) => {
             {/* <button onClick={(ev) => pizzaAction({ action: "edit", ev })} className='resume-button'>
               Editar
             </button> */}
-            <button onClick={buyPizza} className='resume-button'>
-              Comprar
-            </button>
+            {currentUser.role !== "chef" && (
+              <button onClick={buyPizza} className='resume-button'>
+                Comprar
+              </button>
+            )}
           </form>
         </Modal>
       )}
