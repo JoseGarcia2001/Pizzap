@@ -1,0 +1,160 @@
+.creator-header {
+  position: relative;
+}
+.creator .header-title {
+  text-align: center;
+  font-size: 20px;
+}
+.creator .header-close {
+  position: absolute;
+  top: -8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
+}
+.creator-pizza {
+  position: sticky;
+  top: 20px;
+  width: 200px;
+  margin: 0 auto;
+  margin-top: 36px;
+  margin-bottom: 46px;
+  z-index: 1;
+}
+.creator-pizza {
+  animation: rotation 5s linear infinite;
+}
+.creator-bg {
+  position: absolute;
+  top: 0;
+  left: -50%;
+  right: -50%;
+  width: 200%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-image: url("../../assets/images/PizzaBG.png");
+}
+.ingredients-title {
+  font-weight: bold;
+  color: var(--title-color);
+  font-size: 16px;
+}
+.ingredients-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  column-gap: 10px;
+  row-gap: 10px;
+  margin-top: 20px;
+  padding-bottom: 50px;
+}
+.creator-resume {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: var(--primary-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.resume-total {
+  font-family: var(--secondary-font);
+  color: white;
+  font-size: 14px;
+}
+.resume-button {
+  border: none;
+  background: white;
+  outline: none;
+  padding: 6px 25px;
+  font-family: var(--secondary-font);
+  color: var(--title-color);
+  font-size: 14px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.resume-modal {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px 0px 10px;
+  text-align: center;
+}
+.resume-error {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  text-align: center;
+  color: var(--error-color);
+  bottom: 80px;
+  padding: 5px 0;
+  font-family: var(--secondary-font);
+  background: white;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+.resume-error.error {
+  opacity: 1;
+}
+.resume-modal-text {
+  font-weight: 600;
+  color: white;
+  color: var(--title-color);
+}
+.resume-modal-input {
+  height: 60px;
+}
+.resume-modal-input input {
+  display: block;
+  margin: 0 auto;
+  border: none;
+  background: white;
+  outline: none;
+  padding: 6px 12px;
+  font-family: var(--secondary-font);
+  color: var(--title-color);
+  font-size: 14px;
+  border: 1px solid var(--title-color);
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.resume-modal-input::placeholder {
+  color: var(--title-color);
+}
+.resume-modal .resume-button {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  margin-top: 10px;
+  text-decoration: none;
+  color: white;
+  padding: 10px 12px;
+  background: var(--primary-color);
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .creator-pizza {
+    width: 300px;
+  }
+  .ingredients-list {
+    grid-template-columns: repeat(auto-fit, minmax(137px, 236px));
+    justify-content: center;
+  }
+  .ingredients-title {
+    text-align: center;
+  }
+  .creator-resume {
+    justify-content: center;
+    gap: 50px;
+  }
+}

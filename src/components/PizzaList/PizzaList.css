@@ -1,0 +1,22 @@
+.PizzaList.content-mypizzas {
+  margin-top: 0;
+}
+.PizzaList-nopizzas {
+  font-weight: bold;
+}
+.PizzaList-nopizzas a {
+  color: var(--primary-color);
+}
+
+@media screen and (min-width: 768px) {
+  .PizzaList {
+    max-width: 580px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .PizzaList {
+    max-width: 805px;
+  }
+}

@@ -1,0 +1,60 @@
+.ingredient {
+  background: white;
+  border-radius: 8px;
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid rgba(143, 155, 186, 0.2);
+}
+.ingredient-image {
+  background: #fafafc;
+  border-radius: 10px;
+  position: relative;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  height: 70%;
+}
+.ingredient-image img {
+  width: 100%;
+}
+.ingredient-add {
+  background: #6c7693;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+.ingredient-add:active {
+  transform: scale(1.1);
+}
+.ingredient-add p {
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+  height: 100%;
+}
+.ingredient-title {
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.ingredient-price {
+  font-family: var(--secondary-font);
+  color: var(--title-color);
+}
+.ingredient-add.added {
+  opacity: 0.3;
+}
+.ingredient-add.add {
+  opacity: 0.9;
+}
