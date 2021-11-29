@@ -18,7 +18,7 @@ La aplicación cuenta con manejo de sesión, por ende los datos son únicos para
 - Eliminar tus pizzas
 - Comprar las pizzas creadas por los chefs y las que creaste
 
-## Instalación
+### Instalación
 1. Clona el repositorio
     ```
     git clone https://github.com/JoseGarcia2001/Pizzap.git
