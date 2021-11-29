@@ -636,6 +636,13 @@
       "pizza": "Mi pizza",
       "isCustom": false,
       "id": 0.06715661554867514
+    },
+    {
+      "client": "Jose Garcia",
+      "price": 30000,
+      "pizza": "Margherita Pizza",
+      "isCustom": true,
+      "id": 0.7454229002529775
     }
   ]
 }

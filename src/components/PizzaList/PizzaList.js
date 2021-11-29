@@ -102,9 +102,13 @@ const PizzaList = ({ label, view }) => {
         <Modal handleClose={() => setView(null)}>
           <form className='resume-modal'>
             <h2 className='resume-modal-title title'>¿Que deseas hacer?</h2>
-            <button onClick={(ev) => pizzaAction({ action: "delete", ev })} className='resume-button'>
-              Eliminar
-            </button>
+            {(view === "menu" && currentUser.role === "chef") || ["home", "myPizzas"].includes(view) ? (
+              <button onClick={(ev) => pizzaAction({ action: "delete", ev })} className='resume-button'>
+                Eliminar
+              </button>
+            ) : (
+              ""
+            )}
             {/* <button onClick={(ev) => pizzaAction({ action: "edit", ev })} className='resume-button'>
               Editar
             </button> */}
