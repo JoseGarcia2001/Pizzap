@@ -3,7 +3,7 @@
 
 Hola, esta es mi solución a la prueba técnica. 😁
 
-Para ello usé React, con React-Router para las rutas y Redux para el manejo de estado de la aplicación. Para simular la API usé json-server
+Para ello usé React, con React-Router para las rutas y Redux para el manejo de estado de la aplicación la aplicación está diseñada partiendo de mobile first. Para simular la API usé json-server
 
 Pizzapp es una aplicación donde tu puedes ser el chef, como cliente podrás diseñar las pizzas a tu gusto y guardarlas para luego poder repetir.
 Como chef vas a poder crear pizzas para el menú que verán los clientes y además tener un panel de datos interesantes respecto a las ventas.
