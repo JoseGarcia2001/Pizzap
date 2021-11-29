@@ -3,7 +3,7 @@
 
 Hola, esta es mi solución a la prueba técnica. 😁
 
-Para ello use React, con React-Router para las rutas y Redux para el manejo de estado de la aplicación. Para simular la API use json-server
+Para ello usé React, con React-Router para las rutas y Redux para el manejo de estado de la aplicación. Para simular la API usé json-server
 
 La aplicación cuenta con manejo de sesión, por ende los datos son únicos para cada usuario. Dentro de la aplicación existen dos roles, el de cliente y el de chef.
 
@@ -27,24 +27,23 @@ La aplicación cuenta con manejo de sesión, por ende los datos son únicos para
      ```
     npm install
     ```
-3. En dos instancias de la consola corre por un lado el servidor (La simulación con json-server)
+3. En dos instancias de la consola corre  en una el servidor (La simulación con json-server)
      ```
     npm run serve
     ```
-    La aplicación
+    en la otra la aplicación
     ```
     npm run start
     ```
-    y listo!
+    ¡Y listo!
     
     Tienes los usuarios
     
     user: chef - password: 1234
     user: jose - password: 1234
     
-    Sin embargo puedes crear los que gustes
+    Sin embargo, puedes crear los que gustes
     
 ### Posdata
-Fue muy cool realizar el ejercicio, no pude dedicarle el tiempo que me hubiese gustado debido a mis actuales responsabilidades. Sin embargo hice mi mayor esfuerzo. 
-Espero me puedan compartir su feedback respecto a la prueba! Gracias ✨
-
+Fue muy cool realizar el ejercicio, no pude dedicarle el tiempo que me hubiese gustado debido a mis actuales responsabilidades. Sin embargo, hice mi mayor esfuerzo. 
+¡Espero me puedan compartir su feedback respecto a la prueba! Gracias ✨
