@@ -7,13 +7,13 @@ Para ello usé React, con React-Router para las rutas y Redux para el manejo de 
 
 La aplicación cuenta con manejo de sesión, por ende los datos son únicos para cada usuario. Dentro de la aplicación existen dos roles, el de cliente y el de chef.
 
-#### Como chef
+## Como chef
 - Al crear pizzas serán agregadas al menú que verán todos los clientes junto con las del resto de chefs
 - Eliminar pizzas del menú o propias
 - Tendrás acceso a un panel de datos recopilatorios
 
 
-### Como cliente
+## Como cliente
 - Podrás crear tus propias pizzas
 - Eliminar tus pizzas
 - Comprar las pizzas creadas por los chefs y las que creaste
